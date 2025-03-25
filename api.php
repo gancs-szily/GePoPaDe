@@ -35,3 +35,4 @@ switch ($methods) {
         echo json_encode(["message"=>"Method nem létezik"]);
         break;
 }
+$db->closeDB();
